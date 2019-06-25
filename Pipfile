@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+relativetimebuilder = "<2.0.0"
+autopep8 = "*"
+pylint = "*"
+
+[packages]
+django = "*"
+graphene-django = "*"
+django-graphql-jwt = "*"
+django-cors-headers = "*"
+
+[requires]
+python_version = "3.7"
